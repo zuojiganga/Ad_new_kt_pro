@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ad_kt_pro</string>
+    <string name="bt_title1">LearLayout组件</string>
+    <string name="bt_title1_1">LearLayout组件纯代码</string>
+    <string name="bt_title2">RelativeLayout组件</string>
+    <string name="bt_title2_1">RelativeLayout组件纯代码</string>
+    <string name="bt_title3">TextView组件</string>
+    <string name="bt_title3_1">TextView组件纯代码</string>
+    <string name="bt_title4">ListView组件</string>
+    <string name="bt_title4_1">ListView组件纯代码</string>
+    <string name="hello_world">hello world</string>
+    <string name="hello_world2">hello world hello world hello world
+        hello world hello world</string>
+</resources>

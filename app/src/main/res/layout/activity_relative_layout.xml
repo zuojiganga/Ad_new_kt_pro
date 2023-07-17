@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity">
+
+
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff0033">
+    </View>
+<!--    android:layout_toRightOf  某组件右边 -->
+<!--    android:layout_toRightOf  某组件左边-->
+<!--    android:layout_below  某组件下边-->
+<!--    android:layout_above  某组件上边-->
+    <!--    android:layout_alignRight="@+id/view_1"  与某组件右对齐-->
+<!--    android:layout_alignLeft="@id/view_1"    与某组件左对齐-->
+<!--    android:layout_alignTop="@id/view_1"     与某组件顶部对齐-->
+<!--    android:layout_alignBottom="@id/view_1"  与某组件底部对齐-->
+<!--    android:layout_alignStart="@+id/view_1"  与某组件右对齐-->
+<!--    android:layout_alignEnd="@+id/view_1"    与某组件右对齐-->
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff0033"
+        android:layout_toRightOf="@+id/view_1"
+
+        android:layout_marginLeft="10dp">
+
+    </View>
+    <View
+        android:id="@+id/view_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff0033"
+        android:layout_below="@+id/view_1"
+        android:layout_marginTop="10dp">
+
+    </View>
+    <View
+        android:id="@+id/view_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#001122"
+        android:layout_alignLeft="@+id/view_2"
+        android:layout_alignTop="@+id/view_3">
+    </View>
+
+    <View
+        android:id="@+id/view_5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#001122"
+        android:layout_alignBottom="@+id/view_2"
+        android:layout_alignRight="@+id/view_3">
+    </View>
+
+</RelativeLayout>

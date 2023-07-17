@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:padding="10dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff0033">
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+        <!--            android:layout_width="match_parent"—宽度全屏-->
+        <!--            android:layout_height="wrap_content"—高度包裹-->
+        <!--            android:text="@string/hello_world" –内容-->
+        <!--            android:textColor="#A25E87"—字体颜色-->
+        <!--            android:textSize="25px"—字体 大小-->
+        <!--            android:password="true"/>&#45;&#45;密文显示 将要弃用-->
+        <!--            android:inputType="textPassword" 密文显示 -->
+        <TextView
+            android:id="@+id/mytext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#A25E87"
+            android:textSize="25dp"
+            android:text="@string/hello_world"
+            android:inputType="textPassword">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+        <!--            android:layout_width="match_parent"—宽度全屏-->
+        <!--            android:layout_height="wrap_content"—高度包裹-->
+        <!--            android:text="@string/hello_world" –内容-->
+        <!--            android:textColor="#A25E87"—字体颜色-->
+        <!--            android:textSize="25px"—字体 大小-->
+        <!--            android:password="true"/>&#45;&#45;密文显示-->
+<!--        android:layout_marginLeft="50px"—离左边距离30px-->
+<!--        android:textStyle="bold"—字体加粗-->
+<!--        android:maxLength="3"/>&#45;&#45;最多显示3个字符-->
+<!--        android:maxLines="1" —显示一行 -->
+<!--        android:singleLine="true"  —显示一行 -->
+        <!--        android:ellipsize="end" — end 展示不全尾部省略  end 展示不全中部省略 不能与maxLines一起使用  可以和singleLine一起使用>-->
+        <TextView
+            android:id="@+id/mytext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#A25E87"
+            android:textSize="25dp"
+            android:text="@string/hello_world2"
+
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:maxLength="19"
+            android:ellipsize="end"
+            android:singleLine="true">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
