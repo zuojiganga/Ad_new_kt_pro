@@ -90,5 +90,26 @@ class MainActivity : AppCompatActivity() {
             val intent=Intent(this,ListViewActivity::class.java)
             startActivity(intent)
         }
+
+        val button_5 = findViewById<Button>(R.id.bt_5)
+        /**
+         * 第一种实现方式
+         */
+        button_5.setOnClickListener {
+            println("按钮触发类")
+            val intent=Intent(this,ButtonActivity::class.java)
+            startActivity(intent)
+        }
+
+        val buttoncode_5 = findViewById<Button>(R.id.bt_code_5)
+
+        /**
+         * 第一种实现方式
+         */
+        buttoncode_5.setOnClickListener {
+            println("按钮触发类")
+            val intent=Intent(this,ButtonActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

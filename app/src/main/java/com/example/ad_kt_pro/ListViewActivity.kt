@@ -72,7 +72,7 @@ class ListViewActivity : AppCompatActivity() {
                 println("yft.name2==== ${yft.name2}")
 //                yft.name3 = "更改name属性值3"//错误代码：private 声明私有属性，其他类不允许访问
 //                yft.name4 = "更改name属性值4"//错误代码：protected 修饰属性，其他类不允许访问
-                yft.name5 = "更改name属性值5"//错误代码：public 修饰公有属性，其他类允许访问
+//                yft.name5 = "更改name属性值5"//错误代码：public 修饰公有属性，其他类允许访问
                 println("yft.name5==== ${yft.name5}")
 //                yft.name6 = "更改name属性值6"//错误代码：public val 修饰声明公有属性，其他类不允许访问
                 yft.difineAttribute("我是传参数据name")

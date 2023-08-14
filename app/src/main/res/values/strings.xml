@@ -8,6 +8,8 @@
     <string name="bt_title3_1">TextView组件纯代码</string>
     <string name="bt_title4">ListView组件</string>
     <string name="bt_title4_1">ListView组件纯代码</string>
+    <string name="bt_title5">Button组件</string>
+    <string name="bt_title5_1">Button组件纯代码</string>
     <string name="hello_world">hello world</string>
     <string name="hello_world2">hello world hello world hello world
         hello world hello world</string>

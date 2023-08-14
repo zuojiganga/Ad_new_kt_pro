@@ -5,14 +5,14 @@ class KotlinYuFaTang {
     var name2 = "zuozuomu2"  //var 声明属性初始化一次，允许更改 默认是public公有属性
     private val name3 = "zuozuomu3" //private val 声明属性初始化一次，不允许更改； 私有属性，其他类无法访问
     protected var name4 = "zuozuomu4"//protected var 声明属性初始化一次，不允许更改； 私有属性，其他类无法访问
-    public var name5 = "zuozuomu5"//public val 声明属性初始化一次，不允许更改； 公有属性，其他类可以访问
-    public val name6 = "zuozuomu6"//public var 声明属性初始化一次，允许更改； 公有属性，其他类可以访问
+    public val name5 = "zuozuomu5"//public val 声明属性初始化一次，不允许更改； 公有属性，其他类可以访问
+    public var name6 = "zuozuomu6"//public var 声明属性初始化一次，允许更改； 公有属性，其他类可以访问
 
     fun yuFaTangTest(){
         println("打印KotlinYuFaTang.name======$name")
 
         difineAttribute("这是一个有参无返回值方法")
-        difineAttribute("这是一个有参有返回值方法")
+        difineAttribute2("这是一个有参有返回值方法")
         val s = sum(1,2)
         val s2 = sum2(3,4)
         val s3 = sum3(5,6)
